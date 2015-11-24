@@ -1,0 +1,10 @@
+package talker
+
+type Talker struct {
+	Name string
+	Age  uint
+}
+
+func (t Talker) Talk() string {
+	return "Name: " + t.Name
+}
